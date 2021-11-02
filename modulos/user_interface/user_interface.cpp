@@ -56,13 +56,13 @@ static void userInterfaceDisplayReportStateInit()
     displayClear();
 
     displayCharPositionWrite ( 0,0 );
-    displayStringWrite( "PA:" );
+    displayStringWrite( "PA:" ); //A de Antes de la bomba o aguas arriba
 
     displayCharPositionWrite ( 0,1 );
-    displayStringWrite( "PD:" );
+    displayStringWrite( "PD:" ); //D de Después de la bomba o aguas abajo
 
     displayCharPositionWrite ( 0,2 );
-    displayStringWrite( "Peso:" );
+    displayStringWrite( "Peso:" ); // para determinar nivel en el recipiente
 }
 
 
@@ -88,5 +88,5 @@ static void userInterfaceDisplayReportStateUpdate()
     displayCharPositionWrite ( 7,2 );
     displayStringWrite( pesoString );
     displayCharPositionWrite(13,2);
-    displayStringWrite("grs");
+    displayStringWrite("grs"); // unidad de peso elegida
 }
