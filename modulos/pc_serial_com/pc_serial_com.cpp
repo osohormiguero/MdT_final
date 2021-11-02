@@ -41,7 +41,7 @@ void pcSerialComUpdate(){
             case 'v': valvulaCerrar(); break; //cierra la valvula
             case 'V': valvulaAbrir(); break; //abre la valvula
             case 'b': comSetBombaDutyCycle(); break; //te permite setear el duty cycle de la bomba
-            default: usbPort_pc_serial_com.printf("comando no reconocido\n"); break; //si le mandas algo distinto a los comandos anteriores, te dice q no te entiende
+            default: usbPort_pc_serial_com.printf("comando no reconocido\n"); break; //si se escribe algo distinto a los comandos anteriores, contesta q no entiende
             }
         }
     }
