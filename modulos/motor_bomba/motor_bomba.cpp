@@ -3,8 +3,8 @@
 #include "mbed.h"
 
 #define _PERIODO_PWM_ 0.01
-#define _MUCHO_PWM_ 0.1
-#define _POCO_PWM_ 0.01
+#define _MUCHO_PWM_ 0.1 //necesario para cambios rápidos
+#define _POCO_PWM_ 0.01 //necesario para ajustes
 
 static Serial usbPort_motor_bomba(USBTX, USBRX);
 static bool chequearRestriccionesBombaDutyCycle(float dutyCycle_nuevo);
