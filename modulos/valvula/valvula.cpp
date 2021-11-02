@@ -5,7 +5,7 @@
 #include "sistema.h"
 
 
-#define _TIEMPO_DE_CIERRE_ 4000
+#define _TIEMPO_DE_CIERRE_ 4000 //tiempo tanto para apertura como para cierre de la valvula
 
 DigitalInOut motorM1Pin(PF_2);
 DigitalInOut motorM2Pin(PE_3);
