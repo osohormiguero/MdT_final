@@ -7,9 +7,9 @@
 #include "alarmas.h"
 #include "celda_carga.h"
 
-#define _PRESION_ANTES_PELIGRO_     0.7
-#define _PRESION_DESPUES_PELIGRO_   0.7
-#define _CELDA_CARGA_PELIGRO_ -2000
+#define _PRESION_ANTES_PELIGRO_     0.7 //cambio para ver alarma
+#define _PRESION_DESPUES_PELIGRO_   0.7 //cambio para ver alarma
+#define _CELDA_CARGA_PELIGRO_ -2000 // cambio para ver alarma
 
 //definiciones de las funciones y variables que voy a usar
 static float controlPresionAntes();
